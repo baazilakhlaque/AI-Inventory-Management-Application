@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Inventory Management Application
 
-## Getting Started
+This is an application that enables users to add items to their inventory, monitor quantities and remove items when they are sold but with a twist: this process is made simpler with the use of AI for smarter handling. With the help of React-camera-pro package and Google Cloud Vision API, the app allows users to take pictures of different items, classifies the images and adds the label of that image to the system - sparing the time to write. Moreover, in case of only food items, the application's 'AI Chef' feature uses LLama 3.1 LLM to generate several recipes based on the available items.
 
-First, run the development server:
+This application leverages Next.js as the React framework, Material-UI to create a responsive and an appealing user interface, Firebase Firestore as the backend database, and Cloud Storage for Firebase to store pictures of inventory items. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Environment variables are used in the code which means that to run the code it might be needed to replace those variables with custom values.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+How to run the application:
+- install the files
+- go into the project directory
+- run npm install and npm run dev.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
