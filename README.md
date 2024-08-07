@@ -9,5 +9,6 @@ Environment variables are used in the code which means that to run the code it m
 How to run the application:
 - install the files
 - go into the project directory
-- run npm install and npm run dev.
+- run "npm install"
+- Then run "npm start"
 
